@@ -4,4 +4,9 @@ public enum Color {
 
     private String cadenaAMostrar;
 
+    //Constructor
+    Color(String cadenaAMostrar) {
+        this.cadenaAMostrar = cadenaAMostrar;
+
+
 }
