@@ -8,5 +8,9 @@ public enum Color {
     Color(String cadenaAMostrar) {
         this.cadenaAMostrar = cadenaAMostrar;
 
-
+    public String toString() {
+        return "Color{" +
+                "cadenaAMostrar='" + cadenaAMostrar + '\'' +
+                '}';
+    }
 }
