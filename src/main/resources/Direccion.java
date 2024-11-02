@@ -6,6 +6,10 @@ public enum Direccion {
 
     private String cadenaAMostrar;
 
+    //Constructor
+    Direccion(String cadenaAMostrar) {
+        this.cadenaAMostrar = cadenaAMostrar;
+
     @Override
     public String toString() {
         return "Direccion{" +
