@@ -2,6 +2,18 @@ public class Posicion {
     private int fila;
     private char columna;
 
+    //Constructor
+    public Posicion(int fila, char columna) {
+        setFila(fila);
+        setColumna(columna);
+    }
+
+    // Constructor copia
+    public Posicion(Posicion otraPosicion) {
+        this.fila = otraPosicion.fila;
+        this.columna = otraPosicion.columna;
+    }
+
     public int getFila() {
         return fila;
     }
